@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  mapsAppExample
 //
-//  Created by AyzaSoft on 8.03.2023.
+//  Created by Kadir GÜLLÜOĞLU on 8.03.2023.
 //
 
 import UIKit
