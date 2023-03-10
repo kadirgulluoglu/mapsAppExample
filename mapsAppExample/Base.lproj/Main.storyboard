@@ -18,26 +18,44 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AhD-bv-6YW">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="213" width="393" height="605"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="İsim Giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Pqn-kI-zWP">
+                                <rect key="frame" x="16" y="77" width="337" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Notunuzu Giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0TF-RQ-lv8">
+                                <rect key="frame" x="16" y="134" width="337" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AhD-bv-6YW" secondAttribute="trailing" id="5kn-qh-Rcc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="AhD-bv-6YW" secondAttribute="bottom" id="C76-IA-CnZ"/>
-                            <constraint firstItem="AhD-bv-6YW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="CZ4-hF-IJL"/>
-                            <constraint firstItem="AhD-bv-6YW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="zEA-Ld-e9j"/>
+                            <constraint firstItem="Pqn-kI-zWP" firstAttribute="leading" secondItem="0TF-RQ-lv8" secondAttribute="leading" id="1mC-cH-WIF"/>
+                            <constraint firstItem="0TF-RQ-lv8" firstAttribute="top" secondItem="Pqn-kI-zWP" secondAttribute="bottom" constant="23" id="Bl7-gP-tB8"/>
+                            <constraint firstItem="AhD-bv-6YW" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mk5-8b-TWv"/>
+                            <constraint firstItem="Pqn-kI-zWP" firstAttribute="trailing" secondItem="0TF-RQ-lv8" secondAttribute="trailing" id="Vde-ME-iQD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pqn-kI-zWP" secondAttribute="trailing" constant="40" id="ZlB-RZ-Sbb"/>
+                            <constraint firstItem="AhD-bv-6YW" firstAttribute="top" secondItem="0TF-RQ-lv8" secondAttribute="bottom" constant="45" id="iK3-sD-WrZ"/>
+                            <constraint firstItem="AhD-bv-6YW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j72-SW-2xD"/>
+                            <constraint firstItem="AhD-bv-6YW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="jcz-i3-N7f"/>
+                            <constraint firstItem="Pqn-kI-zWP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="kLm-cq-aW6"/>
+                            <constraint firstItem="Pqn-kI-zWP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="zqK-3s-Gqb"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="mapView" destination="AhD-bv-6YW" id="1Ig-Br-09X"/>
+                        <outlet property="nameTextField" destination="Pqn-kI-zWP" id="QEc-xN-m98"/>
+                        <outlet property="noteTextField" destination="0TF-RQ-lv8" id="iZz-S5-wBz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="102" y="5"/>
+            <point key="canvasLocation" x="101.5267175572519" y="4.9295774647887329"/>
         </scene>
     </scenes>
     <resources>

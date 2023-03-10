@@ -14,6 +14,7 @@
 		832D115C29B8C6F10025978C /* mapsAppExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 832D115A29B8C6F10025978C /* mapsAppExample.xcdatamodeld */; };
 		832D115E29B8C6F20025978C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 832D115D29B8C6F20025978C /* Assets.xcassets */; };
 		832D116129B8C6F20025978C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 832D115F29B8C6F20025978C /* LaunchScreen.storyboard */; };
+		833E1A5B29BB4CA500269EA9 /* annotation_model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833E1A5A29BB4CA500269EA9 /* annotation_model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		832D115D29B8C6F20025978C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		832D116029B8C6F20025978C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		832D116229B8C6F20025978C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833E1A5A29BB4CA500269EA9 /* annotation_model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = annotation_model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,10 @@
 		832D115029B8C6F10025978C /* mapsAppExample */ = {
 			isa = PBXGroup;
 			children = (
-				832D115129B8C6F10025978C /* AppDelegate.swift */,
 				832D115329B8C6F10025978C /* SceneDelegate.swift */,
+				832D115129B8C6F10025978C /* AppDelegate.swift */,
 				832D115529B8C6F10025978C /* ViewController.swift */,
+				833E1A5A29BB4CA500269EA9 /* annotation_model.swift */,
 				832D115729B8C6F10025978C /* Main.storyboard */,
 				832D115D29B8C6F20025978C /* Assets.xcassets */,
 				832D115F29B8C6F20025978C /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				832D115629B8C6F10025978C /* ViewController.swift in Sources */,
 				832D115C29B8C6F10025978C /* mapsAppExample.xcdatamodeld in Sources */,
+				833E1A5B29BB4CA500269EA9 /* annotation_model.swift in Sources */,
 				832D115229B8C6F10025978C /* AppDelegate.swift in Sources */,
 				832D115429B8C6F10025978C /* SceneDelegate.swift in Sources */,
 			);
